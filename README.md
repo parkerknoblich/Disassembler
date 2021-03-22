@@ -41,18 +41,3 @@ Title: A Disassembler for the Motorola MC68000 Microprocessor
           ORI, MOVEA, MOVE, NOP, MOVEM, LEA, ADDQ, BRA, BSR, MOVEQ, DIVU, SUB, CMP, MULU, ADD, ADDA, ASL, ASR
           The rest 25 instructions are optional for the purpose of giving you up to 10 extra credits:
           ANDI, SUBI, ADDI, EORI, CMPI, CLR, NOT, EXT, TRAP, STOP, RTE, RTS, JSR, JMP, SUBQ, BEQ, DIVS, OR, EOR, MULS, AND, LSL, LSR, ROL, ROR
- 3. Project Progress Reports
-     These reports intend to pace your project work and to examine the on-going project contribution of each student. Each report must follow the format specified below:
-     1) Title: Get started with the title "CSS422, Quarter 20XX" (such as CSS422, Winter 2020).
-     2) Report #: Distinguish weeks 1 - 4 (but not 5 unlike the other professor and sections). 
-     3) Names: List all team member names.
-     4) Meeting times and locations: Indicate when and where you had team meetings.
-     5) Progress: Summarize what work has been done during the reporting period for each person.
-     6) Plan: List up what each of you will have to do for the next reporting period.
-4. Deliverables
-   All students:
-      1) Peer evaluation: Submit an individual peer evaluation separately named "evaluation.pdf" or "evaluation.docx". If you do not submit a peer evaluation, you will receive an automatic 4 point deduction from your grade on the project. No exceptions! Group representatives: The representative of each group must submit the deliverables of the project work in one zipped file. These include the following three items.
-      2) Source code: Submit the source code named "disassembler.X68". No multiple source files, please to expedite the grading work.
-      3) Documentation: Submit the document named "finalreport.pdf" or "finalreport.docx". The document must include the following sections: Section 1. Specification: Write in 1 page about how to run your program and what it can do. Section 2. Implementation: Write in 1 page of your internal implementation. Section 3. Test Plans: Write in 1 page about how you tested your disassembler. Section 4. Challenges: Describe any problems you have encountered but could not fix (1 page). Section 5. Team Assignments: Clarify who did what and how (in 1 page).
-      4) Video clip: Submit a video clip that demonstrates your program execution. Please see the following instructions to create a video clip. Your video must be named “demo.mp4” or “demo.mov”.
-      5) Slides: Submit slides you used in your demo as “demo.ppt” or “demo.pptx”. Please see in instructions below on what slides you need to get prepared.
