@@ -1,6 +1,6 @@
 # CSS422 Project
 Title: A Disassembler for the Motorola MC68000 Microprocessor
-1. Project Preface
+# 1. Project Preface
     1) Project teams: This is a teamwork project. It is almost impossible to complete the entire project alone unless you are taking only this CSS422 section and can allocate 40+ hours for this project. Each team must consist of two students. Depending  on  the  class  size,  there  may  be  at  most  a  team  of  three  students.  However,  don't  start thinking  about  forming  a  team  of  three  from  the  beginning  of  your  work.  When  the  professor identifies the very last person who has a difficulty in finding her/his teammate, only one team of three students will be formed.You may dissolve your team while working on the project, however you are responsible to form a new team. No solo work allowed.
     2) Workload: Each student must contribute to the project in equal: 50% of the entire work in a two-student team or 33.3% of the work in a three-student team. You may partition the entire work into tasks,  each  with  the  same  work  amount  for  a  student,  or  completely  work  together  on  the  entire work, (i.e., in pair programming). The professor recommends the following work partition:
        a. Two-student team:
