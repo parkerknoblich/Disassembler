@@ -1,6 +1,6 @@
 # CSS422 Project
 Title: A Disassembler for the Motorola MC68000 Microprocessor
-# 1. Project Preface
+1. Project Preface
     1) Project teams: This is a teamwork project. It is almost impossible to complete the entire project alone unless you are taking only this CSS422 section and can allocate 40+ hours for this project. Each team must consist of two students. Depending  on  the  class  size,  there  may  be  at  most  a  team  of  three  students.  However,  don't  start thinking  about  forming  a  team  of  three  from  the  beginning  of  your  work.  When  the  professor identifies the very last person who has a difficulty in finding her/his teammate, only one team of three students will be formed.You may dissolve your team while working on the project, however you are responsible to form a new team. No solo work allowed.
     2) Workload: Each student must contribute to the project in equal: 50% of the entire work in a two-student team or 33.3% of the work in a three-student team. You may partition the entire work into tasks,  each  with  the  same  work  amount  for  a  student,  or  completely  work  together  on  the  entire work, (i.e., in pair programming). The professor recommends the following work partition:
        a. Two-student team:
@@ -16,7 +16,7 @@ Title: A Disassembler for the Motorola MC68000 Microprocessor
         a. Assembling  Your  Program:  Assemble  your  program  with  Easy68K  and  load  it  in memory starting at $1000.
         b. Testing Your UI Part: Run your program and type various keyboard inputs to verify the correct execution of your UI implementation.
         c. Testing  Your  OpCode  and  EA  Analyzing  Part:  Load  test  programs  somewhere  in memory,  run  your  program,  give  correct  keyboard  inputs,  (i.e.,  a  correct  starting  and ending addresses of the test programs), and compare your execution and the source of the test programs.
-# 2. Project Specification
+2. Project Specification
    1) Write  an  inverse  assembler  (disassembler)  that  will  convert  a  memory  image  of  instructions  and data  back  to  the  MC68000  assembly  code  and  that  will  output  the  disassembled  code  to  the display. You will not be required to disassemble all of the instructions and addressing modes. The list of instructions and addressing modes is given below in item 12).
    2) If you want to see how a disassembler works, just take one of your homework problems and load it in memory at an address after your program. Then open a memory window and see the code in memory. You can also view it as disassembled code in the simulator.
    3) DO  NOT  USE  THE  TRAP  FUNCTION  60  FACILITY  OF  THE  SIMULATOR. You  must completely  develop  your  own  disassembler  algorithm.  If  the  professor  suspects  that  you  used TRAP  function  60,  he  will  use  a  search  tool  that  was  designed  to  scan  your  source  code  for  the TRAP function 60 calls. You can only use the simulator's text I/O function, Trap Function 15, and you can only use tasks with ID 0 to 14 of Trap Function 15. Task 15 and higher of Trap Function 15     cannot     be     used. Please see the available tasks of Trap Function 15: http://www.easy68k.com/QuickStart/TrapTasks.htm (Links to an external site.)
